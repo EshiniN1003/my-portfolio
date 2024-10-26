@@ -6,9 +6,10 @@ import { IoLinkSharp } from "react-icons/io5";
 
 // @flow strict
 function ProjectCard({ project }) {
+  console.log("project.html_url:", project.html_url);
 
   return (
-    <Link href={project.html_url} target="_blank">
+    <Link href={project.html_url || "#"} target="_blank">
       <div className="p-8 h-48 flex flex-col justify-between bg-primary-bg">
         <div className="">
           <div className="flex justify-between items-center">

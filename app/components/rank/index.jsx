@@ -32,20 +32,7 @@ function Rank() {
         </>
 
         <>
-          <Image
-            src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/global.svg`}
-            width={1080}
-            height={520}
-            alt="github global"
-            className="rounded-lg"
-          />
-          <Image
-            src={`https://stardev.io/developers/${userData.githubUser}/badge/languages/locality.svg`}
-            width={1080}
-            height={520}
-            alt="github locality"
-            className="rounded-lg"
-          />
+          
         </>
       </div>
     </div>
