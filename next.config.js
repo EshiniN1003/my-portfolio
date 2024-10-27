@@ -10,7 +10,7 @@ const nextConfig = {
   trailingSlash: true, // Optional for directory structure
   
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: [path.join(__dirname, 'css')],
   },
   
   images: {
