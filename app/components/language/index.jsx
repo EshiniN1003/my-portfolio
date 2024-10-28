@@ -1,8 +1,8 @@
 // @flow strict
 import { userData } from "@/data/user-data";
 import Image from "next/image";
-import GlowCard from "../helper/glow-card";
-import SectionTitle from "../helper/section-title";
+import GlowCard from "./my-portfoliohelper/glow-card";
+import SectionTitle from "./my-portfoliohelper/section-title";
 
 function GitLanguage() {
   return (

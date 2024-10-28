@@ -1,9 +1,9 @@
-import Contributions from "./components/contributions";
-import HeroSection from "./components/hero-section";
-import GitLanguage from "./components/language";
-import Projects from "./components/projects";
-import Rank from "./components/rank";
-import GitStats from "./components/stats";
+import Contributions from "/my-portfoliocomponents/contributions";
+import HeroSection from "/my-portfoliocomponents/hero-section";
+import GitLanguage from "/my-portfoliocomponents/language";
+import Projects from "/my-portfoliocomponents/projects";
+import Rank from "/my-portfoliocomponents/rank";
+import GitStats from "/my-portfoliocomponents/stats";
 
 
 const profile = {
