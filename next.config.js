@@ -5,14 +5,14 @@ const path = require('path');
  */
 const nextConfig = {
   output: 'export',
-  basePath: '/my-portfolio', // Replace 'my-portfolio' with your actual repository name
-  assetPrefix: '/my-portfolio',
+  basePath: '/my-portfolio', // Replace with your actual repository name if needed
+  assetPrefix: '/my-portfolio', // Set asset prefix for assets
   trailingSlash: true, // Optional for directory structure
   
   sassOptions: {
-    includePaths: [path.join(__dirname, 'css')],
+    includePaths: [path.join(__dirname, 'css')], // Adjusted to point to the correct folder
   },
-  
+
   images: {
     domains: [
       'media.dev.to', 
