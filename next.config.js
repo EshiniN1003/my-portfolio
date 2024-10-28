@@ -4,13 +4,12 @@ const path = require('path');
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  output: 'export',
-  basePath: '/my-portfolio', // Replace with your actual repository name if needed
-  assetPrefix: '/my-portfolio', // Set asset prefix for assets
-  trailingSlash: true, // Optional for directory structure
-  
+  basePath: '/my-portfolio', // Keep your basePath
+  assetPrefix: '/my-portfolio/', // Use this if you have static assets
+  trailingSlash: true,
+
   sassOptions: {
-    includePaths: [path.join(__dirname, 'css')], // Adjusted to point to the correct folder
+    includePaths: [path.join(__dirname, 'css')],
   },
 
   images: {

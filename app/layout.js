@@ -1,6 +1,6 @@
 import { GoogleTagManager } from '@next/third-parties/google';
 import { Inter } from 'next/font/google';
-import Footer from '/my-portfolio/components/footer';
+import Footer from '/my-portfolio/components/footer'; // Adjust based on your folder structure
 import Navbar from '/my-portfolio/components/navbar';
 import '/css/card.scss';
 import '/css/globals.scss';
