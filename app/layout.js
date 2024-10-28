@@ -1,7 +1,7 @@
 import { GoogleTagManager } from '@next/third-parties/google';
 import { Inter } from 'next/font/google';
-import Footer from '/my-portfoliocomponents/footer';
-import Navbar from '/my-portfoliocomponents/navbar';
+import Footer from '/my-portfolio/components/footer';
+import Navbar from '/my-portfolio/components/navbar';
 import '/css/card.scss';
 import '/css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });

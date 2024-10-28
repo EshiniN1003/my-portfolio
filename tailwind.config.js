@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    '/my-portfoliopages/**/*.{js,ts,jsx,tsx,mdx}',
-    '/my-portfoliocomponents/**/*.{js,ts,jsx,tsx,mdx}',
-    '/my-portfolioapp/**/*.{js,ts,jsx,tsx,mdx}',
+    '/my-portfolio/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    '/my-portfolio/components/**/*.{js,ts,jsx,tsx,mdx}',
+    '/my-portfolio/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {

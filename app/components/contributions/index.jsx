@@ -1,7 +1,7 @@
 // @flow strict
 
 import GitHubCalendar from "react-github-calendar";
-import SectionTitle from "./my-portfoliohelper/section-title";
+import SectionTitle from "./my-portfolio/helper/section-title";
 
 
 function Contributions() {

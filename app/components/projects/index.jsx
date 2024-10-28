@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { FaLongArrowAltRight } from 'react-icons/fa';
-import GlowCard from './my-portfoliohelper/glow-card';
-import SectionTitle from './my-portfoliohelper/section-title';
-import ProjectCard from '/my-portfolioproject-card';
+import GlowCard from './my-portfolio/helper/glow-card';
+import SectionTitle from './my-portfolio/helper/section-title';
+import ProjectCard from '/my-portfolio/project-card';
 
 const Projects = ({ projects, profile }) => {
   // Set a default profile URL if profile.html_url is undefined
