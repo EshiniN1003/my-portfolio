@@ -3,7 +3,7 @@
   "description": "Portfolio of Eshini Nethmini - Github profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://EshiniN1003.github.io/out",
+  "homepage": "https://EshiniN1003.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -5,8 +5,8 @@ const path = require('path');
  */
 const nextConfig = {
   output: 'export',
-  basePath: '/out', // Replace with your actual repository name if needed
-  assetPrefix: '/out', // Set asset prefix for assets
+  basePath: '', // Replace with your actual repository name if needed
+  assetPrefix: '', // Set asset prefix for assets
   trailingSlash: true, // Optional for directory structure
   
   sassOptions: {
