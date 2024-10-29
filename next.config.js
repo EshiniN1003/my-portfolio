@@ -1,12 +1,10 @@
 const path = require('path');
 
-/**
- * @type {import('next').NextConfig}
- */
 const nextConfig = {
-  basePath: '/my-portfolio', // Keep your basePath
-  assetPrefix: '/my-portfolio/', // Use this if you have static assets
+  basePath: '/my-portfolio',
+  assetPrefix: '/my-portfolio/',
   trailingSlash: true,
+  reactStrictMode: true,
 
   sassOptions: {
     includePaths: [path.join(__dirname, 'css')],
@@ -24,6 +22,11 @@ const nextConfig = {
     ],
     dangerouslyAllowSVG: true,
   },
+
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.resolve(__dirname); // Adds support for '@/'
+    return config;
+  }
 };
 
 module.exports = nextConfig;

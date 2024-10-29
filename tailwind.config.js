@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    '/my-portfolio/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    '/my-portfolio/components/**/*.{js,ts,jsx,tsx,mdx}',
-    '/my-portfolio/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -23,13 +23,9 @@ module.exports = {
           "3xl": "5rem",
         },
       },
-
-      extend: {
-        screens: {
-          "4k": "1980px",
-        },
+      screens: {
+        "4k": "1980px",
       },
-
       colors: {
         "primary-title": "#00AEFF",
         "primary-text": "#FFFFFF",
@@ -39,4 +35,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

@@ -1,9 +1,9 @@
-import Contributions from "/my-portfolio/components/contributions";
-import HeroSection from "/my-portfolio/components/hero-section";
-import GitLanguage from "/my-portfolio/components/language";
-import Projects from "/my-portfolio/components/projects";
-import Rank from "/my-portfolio/components/rank";
-import GitStats from "/my-portfolio/components/stats";
+import Contributions from 'components/contributions';
+import HeroSection from 'components/hero-section';
+import GitLanguage from 'components/language';
+import Projects from 'components/projects';
+import Rank from 'components/rank';
+import GitStats from 'components/stats';
 
 
 const profile = {
