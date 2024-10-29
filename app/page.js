@@ -1,10 +1,10 @@
-import Contributions from 'components/contributions';
-import HeroSection from 'components/hero-section';
-import GitLanguage from 'components/language';
-import Projects from 'components/projects';
-import Rank from 'components/rank';
-import GitStats from 'components/stats';
-
+import { userData } from "@/data/user-data";
+import Contributions from "./components/contributions";
+import HeroSection from "./components/hero-section";
+import GitLanguage from "./components/language";
+import Projects from "./components/projects";
+import Rank from "./components/rank";
+import GitStats from "./components/stats";
 
 const profile = {
   name: "Eshini Nethmini",

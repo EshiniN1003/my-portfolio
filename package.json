@@ -3,13 +3,13 @@
   "description": "Portfolio of Eshini Nethmini - Github profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://EshiniN1003.github.io",
+  "homepage": "https://EshiniN1003.github.io/my-portfolio/",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build ",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out"
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@next/third-parties": "^14.1.3",

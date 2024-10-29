@@ -3,8 +3,10 @@ const path = require('path');
 const nextConfig = {
   basePath: '/my-portfolio',
   assetPrefix: '/my-portfolio/',
+  output: 'export',
   trailingSlash: true,
   reactStrictMode: true,
+  
 
   sassOptions: {
     includePaths: [path.join(__dirname, 'css')],
